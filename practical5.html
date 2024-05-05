@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#boxModel">Box Model</a></li>
+                <li><a href="#clearfix">Clearfix Hack</a></li>
+                <li><a href="#marginCollapse">Margin Collapse</a></li>
+                <li><a href="#holyGrailProblem">Holy Grail Problems</a></li>
+                <li><a href="#modernHolyGrail">Modern Holy Grail</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="boxModel">
+            <h1>What is a Box Model in CSS</h1>
+            <p>The CSS box model is fundamentally a box that wraps around every HTML element. It consists of margins, borders, padding, and the actual content. The <strong>box-sizing</strong> property allows us to include the padding and border in an element's total width and height.</p>
+            <div class="cont_img">
+                 <img src="/box.jpg" alt="CSS Box Model Diagram">
+            </div>
+           
+        </article>
+
+        <article id="clearfix">
+            <h1>What is a "Clearfix Hack"</h1>
+            <p>The "clearfix hack" is a method used to clear floats. When elements are floated, it affects their containing element's height. Applying the clearfix hack enables the container to enclose the floated elements, which otherwise would collapse.</p>
+            <div class="cont_img">
+                <img src="/clearf10.jpg" alt="Clearfix Hack Example">
+            </div>
+            
+        </article>
+
+        <article id="marginCollapse">
+            <h1>What is "Margin Collapse"</h1>
+            <p>Margin collapse is the phenomenon where top and bottom margins of blocks are combined into a single margin. This occurs only between vertically adjacent elements. Using <strong>margin: auto</strong> can center an element horizontally, and negative margins are often used to overlap elements.</p>
+            <div class="cont_img">
+                <img src="/collapsing.png" alt="Margin Collapse Example">
+            </div>
+            
+        </article>
+
+        <article id="holyGrailProblem">
+            <h1>The Problem with Achieving the Holy Grail Layout</h1>
+            <p>The Holy Grail layout refers to a web page layout that has multiple, equally important columns that are dynamically responsive. The problem was ensuring that these columns are equally high regardless of their content.</p>
+            <div class="cont_img">
+                <img src="/Holy-Grail-Layout.png" alt="Achieving the Holy Grail Layout">
+            </div>
+            
+        </article>
+
+        <article id="modernHolyGrail">
+            <h1>Modern Ways to Achieve the Holy Grail Layout</h1>
+            <p>Modern techniques like Flexbox or CSS Grid have made it simpler to implement the Holy Grail layout. These methods provide more control over column sizing, alignment, and distribution of space.</p>
+            <div class="cont_img">
+                <img src="/flexbox-vs-grid.png" alt="Flexbox and Grid for Holy Grail">
+            </div>
+            
+        </article>
+    </main>
+
+    <footer>
+        <p>Created by: Student Name</p>
+        <p>Course: Web Development 101</p>
+        <p>Date: 2024-05-05</p>
+        <p>Location: Virtual Classroom</p>
+        <ul class="links">
+            <li><a href="https://example.com">Interesting Link 1</a></li>
+            <li><a href="https://example.com">Interesting Link 2</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
